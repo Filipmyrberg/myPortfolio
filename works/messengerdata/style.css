@@ -1,0 +1,35 @@
+.review--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.review {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+
+  max-width: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  min-height: 30vh;
+  min-width: 60vh;
+  padding: 20px;
+}
+
+.works--image {
+  width: fit-content;
+  max-width: 100%;
+}
+
+.review--text,
+.works--link {
+  font-size: 12px;
+  font-family: monospace;
+}
