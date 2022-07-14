@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+
+    <!-- jQuery Link -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KYFXF8Y9W5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-KYFXF8Y9W5");
+    </script>
+  </head>
+  <body>
+    <div class="title"><h1>Filip Myrberg</h1></div>
+    <p class="slogan"></p>
+
+    <div id="content-container">
+      <div id="content">
+        <div id="facts">
+          <p>📍 Gothenburg, Sweden</p>
+          <a id="contact" href="contact.html">contact</a>
+          <!-- <a id="cv" href="cv.html">cv</a> -->
+          <p>💼 Current occupation: employee for a VR-project</p>
+        </div>
+        <h2>Some stuff I've done</h2>
+        <div class="works">
+          <div id="column-left">
+            <div class="webpage--item" id="messengerdata">
+              <div class="imageandtitle">
+                <img class="thumbnail" src="/image/MessengerData3.png" />
+                <p class="thumbnail--title">Managing the self (2022)</p>
+              </div>
+              <div class="works--text">
+                <p
+                  id="messengerdata--text"
+                  class="item--text"
+                  style="display: none"
+                >
+                  This was my examination project from the 1-year course
+                  "programming for artists" which is held at Konstfack in
+                  Stockholm. For my final project I looked at my own messenger
+                  data and projected it into virtual space with the help of
+                  programming logic. <br /><br />
+                </p>
+                <a
+                  id="messengerdata--link"
+                  class="works--text"
+                  style="display: none"
+                  href="/works/messengerdata/messengerdata.html"
+                  >read more about it --></a
+                >
+              </div>
+            </div>
+
+            <div class="webpage--item" id="pixels">
+              <div class="imageandtitle">
+                <img class="thumbnail" src="/image/pixels2.gif" />
+                <p class="thumbnail--title">
+                  Color theory and geneology (2021)
+                </p>
+              </div>
+              <div class="works--text">
+                <p id="pixels--text" class="item--text" style="display: none">
+                  In the midst of Covid we had an assignment from school to make
+                  a project about geneology (the studies about family trees) and
+                  to avoid people I decided to put my project on the web. This
+                  is an exploration of the color wheel! Recommended to watch on
+                  your desktop!<br /><br />
+                </p>
+                <a
+                  id="pixels--link"
+                  class="works--text"
+                  style="display: none"
+                  href="http://pixelspixelspixels.weebly.com/"
+                  >http://pixels.com/</a
+                >
+              </div>
+            </div>
+
+            <div class="webpage--item" id="syskonstök">
+              <div class="imageandtitle">
+                <img class="thumbnail" src="/image/syskonstök2.png" />
+                <p class="thumbnail--title">Syskonstök - kortfilm (2018)</p>
+              </div>
+              <div class="works--text">
+                <p
+                  id="syskonstök--text"
+                  class="item--text"
+                  style="display: none"
+                >
+                  Syskonstök is a short film written and directed by me during
+                  my second year at the community college Fridhem were I studied
+                  film for two years. With emphasis on rehearsals and finding a
+                  natural way of acting this film came to life!
+                  <br /><br />
+                </p>
+                <a
+                  id="syskonstök--link"
+                  class="works--text"
+                  style="display: none"
+                  href="https://vimeo.com/manage/videos/329846386/privacy"
+                  >https://vimeo.com/syskonstök</a
+                >
+              </div>
+            </div>
+          </div>
+          <div id="column-right">
+            <!-- <div class="webpage--item" id="guysim">
+              <div class="imageandtitle">
+                <img class="thumbnail" src="/image/terracetalks.png" />
+                <p class="thumbnail--title">Guy simulator (2022)</p>
+              </div>
+              <div class="works--text">
+                <p id="guysim--text" class="item--text" style="display: none">
+                  A workshop in virtual production yelded two takes of a scene I
+                  had written that was used as testing material. I took the
+                  opportunity to cut it togther and add a function I had thought
+                  about for some time. This is your chance to chat with the guy
+                  in the phone! <br /><br />
+                </p>
+                <a
+                  id="guysim--link"
+                  class="works--text"
+                  style="display: none"
+                  href="/works/guysim/index.htm"
+                  >See Guy simulator here!</a
+                >
+              </div>
+            </div> -->
+
+            <div class="webpage--item" id="newnews">
+              <div class="imageandtitle">
+                <img class="thumbnail" src="/image/newnews2.png" />
+                <p class="thumbnail--title">The New News - Research project</p>
+              </div>
+              <div class="works--text">
+                <p id="newnews--text" class="item--text" style="display: none">
+                  In 2021 I worked together with Hanneloes Grezel to develop a
+                  research project about youth and their news consumption with
+                  support from Gothenburg university. We worked
+                  cross-disiplinary combining our journalistic and artistic
+                  practices. This resulted in a research project presented
+                  through the web.
+                  <br /><br />
+                </p>
+                <a
+                  id="newnews--link"
+                  class="works--text"
+                  style="display: none"
+                  href="https://thenewnews.se/"
+                  >https://thenewnews.se/</a
+                >
+              </div>
+            </div>
+
+            <div class="webpage--item" id="halvtid">
+              <div class="imageandtitle">
+                <img class="thumbnail" src="/image/halvtid2.png" />
+                <p class="thumbnail--title">Halvtid - kortfilm (2018)</p>
+              </div>
+              <div class="works--text">
+                <p id="halvtid--text" class="item--text" style="display: none">
+                  This project really was a team effort where me and a few of
+                  the actors worked together with a theme we all held dear, this
+                  being supporter culture and engagement in soccer! We also
+                  wanted to take a step away from a type of not-so-open minded
+                  supporter culture we had exprienced.
+                  <br /><br />
+                </p>
+                <a
+                  id="halvtid--link"
+                  class="works--text"
+                  style="display: none"
+                  href="https://vimeo.com/manage/videos/374164861"
+                  >https://vimeo.com/halvtid</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2>Books I've read</h2>
+        <div id="books">
+          <div id="book--item">
+            <img
+              class="thumbnail--books"
+              src="/image/books/morgonstjärnan.jpg"
+            />
+            <div class="book--facts">
+              <p class="book--title">
+                morgonstjärnan - <br />
+                Karl Ove Knausgård
+              </p>
+              <p id="book--text">Fundering kring det manliga!</p>
+              <a class="works--text" href="/bookreviews/morgonstjärnan.html"
+                >läs mer om boken...</a
+              >
+            </div>
+          </div>
+          <div id="book--item">
+            <img class="thumbnail--books" src="/image/books/mittarbete.jpg" />
+            <div class="book--facts">
+              <p class="book--title">Mitt arbete - Olga Ravn</p>
+              <p id="book--text">
+                Ohämmat utlämnande, självupptagen och briljant!
+              </p>
+              <a class="works--text" href="/bookreviews/mittarbete.html"
+                >läs mer om boken...</a
+              >
+            </div>
+          </div>
+        </div>
+        <div id="links">
+          <p>Just some links</p>
+          <a href="https://thenewinquiry.com/closing-the-loop/"
+            >Closing the Loop - Article</a
+          >
+          <a href="  https://pubmed.ncbi.nlm.nih.gov/31143710/"
+            >NOMOPHOBIA: NO MObile PHone PhoBIA</a
+          >
+
+          <!-- <a href="">describing text</a> -->
+        </div>
+        <a id="contact" href="dagbok.html"
+          >Digital diary for the public because public is persona and almost
+          anything can be accounted content.</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
